@@ -1,0 +1,75 @@
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP/CodeIgniter
+vendor/
+writable/logs/*
+writable/cache/*
+writable/session/*
+writable/uploads/*
+!writable/logs/.htaccess
+!writable/cache/.htaccess
+!writable/session/.htaccess
+!writable/uploads/.htaccess
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Machine Learning Models (optional - comment out if you want to include trained models)
+# models/*.pkl
+# models/*.joblib
+
+# Data files (keep sample data but ignore large datasets)
+*.log
+*.csv.bak
+*.xlsx.bak
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Node.js (if using frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer
+composer.phar
+
+# PHPUnit
+.phpunit.result.cache
+
+# Coverage reports
+coverage/
+*.coverage
+.nyc_output/
